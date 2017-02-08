@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
-'''usage in Zim custum tools:
+'''
+1- usage in Zim custum tools:
     add the following line to a new costum tool:
         ~/showNewFiles.py %n 10 
     check the box which says: Output should replace the current selection
-   
-usage commandline (returns the last 10 newly edited pages) :  ~/showNewFiles "~/Dropbox/Notes/"  10        
+    in any page that you want to see the output select a dummy text, then run the tool and it will replace
+    the selected text with the links to the last n (here: 10) modified pages. To make the links effective, press 
+    CTRL+R to refresh the page.
+    
+2- usage commandline (returns the last 10 newly edited pages) :  ~/showNewFiles "~/Dropbox/Notes/"  10        
     '''
     
 
