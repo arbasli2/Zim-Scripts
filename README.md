@@ -10,11 +10,11 @@ showNewFiles.py: prints the latest edited notes. In command line prints to the c
     
 add the following line to a new costum tool:
     
-* under linux: 
+* under linux: if the file is in for example home directory
 
    ~/showNewFiles.py %n 10
 
-* under windows: if it is in a path for example "c:" 
+* under windows: if the file is in for example "c:" 
 
    python c:\showNewFiles.py %n 10
 
