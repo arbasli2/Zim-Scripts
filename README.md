@@ -10,14 +10,14 @@ showNewFiles.py: prints the latest edited notes. In command line prints to the c
     
     add the following line to a new costum tool:
     
-    * under linux: 
-        ~/showNewFiles.py %n 10
-    * under windows: if it is in a path for example "c:" 
-        python c:\showNewFiles.py %n 10
+* under linux: 
+    ~/showNewFiles.py %n 10
+* under windows: if it is in a path for example "c:" 
+    python c:\showNewFiles.py %n 10
 
-    check the box which says: Output should replace the current selection
-    in any page that you want to see the output select a **temporary text**, then run the tool and it will replace
-    the selected text with the links to the last n (here: 10) modified pages. To make the links effective, press 
-    CTRL+R to refresh the page.
+check the box which says: Output should replace the current selection
+in any page that you want to see the output select a **temporary text**, then run the tool and it will replace
+the selected text with the links to the last n (here: 10) modified pages. To make the links effective, press 
+CTRL+R to refresh the page.
     
 2- usage commandline (returns the last 10 newly edited pages) :  ~/showNewFiles "~/Dropbox/Notes/"  10        
